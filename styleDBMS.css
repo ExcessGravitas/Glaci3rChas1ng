@@ -1,0 +1,96 @@
+.content {
+	margin-left: 17%;
+	background-color: rgba(255,255,255,0.7);
+	padding: 25px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 17%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    overflow-x: hidden;
+    text-align: center;
+    padding: 2px;
+}
+
+.sidenav a {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+body {
+    background: url('background_DB.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+h1 {
+	margin-left:18%;
+    color: black;
+	font-size: 60px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+	color: blue;
+	font-size: 30px;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: left;
+}
+
+h3 {
+    color: blue;
+    font-size: 20px;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: left;
+}
+
+.logout {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    color: white;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.logout:hover {
+    background-color: #800000;
+}
+
+table {
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: left;
+    vertical-align: top;
+    width: 75%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: white;
+    border-bottom: 10px solid white;
+}
+
+th {
+    color: blue;
+    padding: 10px;
+    padding-top: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    padding-left: 10px;
+}

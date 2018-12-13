@@ -1,0 +1,41 @@
+.topbar {
+    background-color: rgba(255,255,255,0.9);
+    padding: 30px;
+    text-align: center;
+}
+
+.content {
+    background-color: rgba(255,255,255,0.7);
+	padding: 25px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 110%;
+}
+
+.err1 {
+    color: red;
+}
+
+body {
+    background: url('background_DB.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: black;
+	font-size: 350%;
+	font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+	color: blue;
+	font-size: 130%;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: left;
+}
+
+h3 {
+    color: blue;
+    font-size: 120%;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: left;
+}
